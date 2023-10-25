@@ -9,8 +9,6 @@ import { UserView } from "./features/user/UserView";
 function App() {
   const [count, setCount] = useState(0);
 
-  console.log("first");
-
   return (
     <div className="App">
       <CakeView />
