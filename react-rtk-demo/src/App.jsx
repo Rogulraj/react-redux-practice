@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
+import "./App.css";
 
-import { CakeView } from './features/cake/CakeView'
-import { IcecreamView } from './features/icecream/IcecreamView'
-import { UserView } from './features/user/UserView'
+import { CakeView } from "./features/cake/CakeView";
+import { IcecreamView } from "./features/icecream/IcecreamView";
+import { UserView } from "./features/user/UserView";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  console.log("first");
 
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
       <IcecreamView />
       <UserView />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
